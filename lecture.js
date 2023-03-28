@@ -1,3 +1,9 @@
+/*
+During this course you will learn the following.
+Make sure to code-along during lecture.
+*/
+
+
 // 1. Link the script.js file from the HTML
 
 // 2. Console Log + Comments + Reserved Words + Camel Case + Naming Convention

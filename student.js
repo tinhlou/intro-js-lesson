@@ -1,4 +1,8 @@
-// Complete the following numbered tasks:
+/*
+========== LESSON 1 - VARIABLES ==========
+Complete the following numbered tasks:
+*/
+
 // 1. Declare 2 variables below:
 
 
