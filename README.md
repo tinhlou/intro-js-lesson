@@ -4,6 +4,6 @@
 
 - Clone the repo to your local machine.
 
-- Follow along with the lecture.
+- Follow along with the lecture using lecture.js.
 
-- Steps are outlined within the script.js file.
+- Complete activity tasks in student.js
