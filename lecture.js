@@ -20,7 +20,11 @@ var myNumber = 3;
 // 4. Creating Functions (+ Event Listeners?)
 
 // 5. Strings = text
-    
+    let myName = "Quincy";
+
+    let myArray = [1, 5, 7];
+    console.log(myName[0]);
+    console.log(myArray[2]);
 // 6. Numbers = number,
     /* big int is a big integer 
     boolean = true or false

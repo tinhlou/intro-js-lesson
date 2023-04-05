@@ -101,3 +101,33 @@ const productNumber = ( a, b) => a * b;
         return Math.floor(Math.random()*100) + 1;
     }
     console.log(getRandom())
+
+    /*
+========== LESSON 4 - STRINGS ==========
+*/
+// 1. Create a getPersonStats function statement that takes in 3 Strings: name, job, age. The function should console log a statement such as "Hi my name is [NAME], I am [AGE] years old, and I am a [JOB]".
+function getPersonStats(name, job, age){
+    console.log("Hi my name is ${name}, I am ${age} years old, and I am a ${job}")
+}
+getPersonStats("Tinh, UX designer, 22")
+// 2. Create a sayFirstAndLast function expression that takes in 1 String parameter and console logs "the first character is: [firstChar] and last character is: [lastChar]".
+const sayFirstAndLast = function(String) {
+    const firstChar = String.charAt(0);
+    const lastChar = String.charAt(str.length - 1);
+    console.log("the first character is: ${firstChar} and last character is ${lastChar}")
+}
+// 3. Create a yellFruitNum arrow function that takes in 1 number parameter, 1 String that is a fruit parameter, and console logs the sentence "I have [number] [FRUIT]" in all caps.
+const yellFruitNum = (num, fruit) => {
+    console.log("I have ${num} ${fruit.toUpperCase()}!")
+}
+yellFruitNum(1, "orange")
+// 4. Create a sliceFruit function that takes in a String of a fruit and console logs everything except the first 2 letters.
+const sliceFruit = (fruit) => {
+    console.log(fruit.slice(2));
+}
+sliceFruit("orange")
+// 5. Create a splitFruit function that takes in a String of a fruit and returns an array of the letters split into each index of the array.
+const splitFruit = (fruit) => {
+    return fruit.split("");
+}
+console.log(splitFruit("orange"))
